@@ -9,12 +9,12 @@
     text-align: left;
     margin-left: 80px;
 }
-.header header::after {
+.achivement .header header::after {
     
     height: 3px;
     left: -19%;
 }
-.header p{
+.achivement .header p{
 color: #777;
 line-height: 2;
 width: 514px;
