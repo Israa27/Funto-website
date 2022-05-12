@@ -1,0 +1,52 @@
+.content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    position: relative;
+}
+.content::after{
+    content: '';
+    position: absolute;
+    background: url('../../Assets/images/hero-shape.png') no-repeat ;
+     background-size: cover;
+     right: -196px;
+     width: 1000px;
+     height: 900px;
+     z-index: -1;
+    z-index: -1;
+}
+.image {
+    width: 1270px;
+}
+.image img{width: 100%;}
+.text{width: 96%;}
+.text header{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 41px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+.text p{
+   
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+button{
+    margin-top: 25px;
+    border: none;
+    width: 161px;
+    height: 38px;
+    border-radius: 35px;
+    background-color: #ff9280;
+    color: #fff;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.text button:hover{
+
+    background-color: #ffe2dd;
+    color: rgb(186, 104, 104);
+}

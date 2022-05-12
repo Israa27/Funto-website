@@ -1,0 +1,20 @@
+.navbar .container {align-items: center;}
+.bg-light {
+    background-color: #fff !important;
+    box-shadow: 0px 0px 6px 0px #e2e2e2;
+}
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end !important;
+}
+.logo{
+    width: 190px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #283a5e;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color: orange;
+}

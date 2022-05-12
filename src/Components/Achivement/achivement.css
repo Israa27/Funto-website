@@ -1,0 +1,73 @@
+.achivement{
+    display: flex;
+    justify-content: space-between;
+    height: 550px;
+
+}
+.achivement .header{
+    width: 430px;
+    text-align: left;
+    margin-left: 80px;
+}
+.header header::after {
+    
+    height: 3px;
+    left: -19%;
+}
+.header p{
+color: #777;
+line-height: 2;
+width: 514px;
+}
+.left-side{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 31%;
+    margin: 50px;
+    position: relative;
+
+}
+.circal{
+    display: flex;
+    width: 190px;
+    height: 190px;
+    background-color: #eee;
+    border-radius: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    
+
+}
+.circal h3{
+    font-weight: bold;
+    color: #fff;
+}
+.circal p{
+    color: #fff;
+}
+
+.left-side>.circal:nth-child(1) {
+    background-color: rgba(117,205,255,.8);
+    top: -7px;
+    right: 108px;
+}
+.left-side>.circal:nth-child(2) {
+    
+    background-color: rgb(194 140 255 / 80%);
+    right: 255px;
+    top: 89px;
+    z-index: 1;
+
+}
+.left-side>.circal:nth-child(3) {
+    background-color: rgba(254,193,78,.8);
+    top: 90px;
+    right: -37px;
+    z-index: 1;
+}
+.left-side>.circal:nth-child(4) {background-color:#FEC3AB ;    top: 185px;
+    right: 108px; }
